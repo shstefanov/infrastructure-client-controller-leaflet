@@ -25,9 +25,8 @@ module.exports = require("lib.Controller").extend("LeafletMapController", {
     }
 
     this.map = Leaflet.map(element, opts.map_options);
-    // this.map.fitBounds(opts.map_options.maxBounds);
 
-    var OpenStreetMap_Mapnik = Leaflet.tileLayer(opts.tilelayer_api, {
+    Leaflet.tileLayer(opts.tilelayer_api, {
       attribution: opts.attribution,
     }).addTo(this.map);
 
