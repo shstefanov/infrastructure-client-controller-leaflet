@@ -1,12 +1,13 @@
 {
   "name": "infrastructure-client-controller-leaflet",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "private": false,
   "author": {
     "name": "Stefan Stefanov",
     "email": "s.h.stefanov@mail.bg"
   },
   "dependencies": {
-    "leaflet": "latest"
+    "leaflet": "latest",
+    "infrastructure": "^1.0.0"
   }
 }
