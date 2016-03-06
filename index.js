@@ -42,8 +42,8 @@ module.exports = require("infrastructure/lib/client/Controller").extend("Leaflet
       }
     }
 
-    cb();
     this.trigger("init");
+    cb();
   },
 
   fitSize: function(){
